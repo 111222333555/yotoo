@@ -1,0 +1,350 @@
+[
+  {
+    "bookSourceComment": "青灯：没有搜索  21/5/18",
+    "bookSourceGroup": "☀晨光雨露🍒精俢源💯",
+    "bookSourceName": "🕌 刺猬猫>简介增加更新时间",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ciweimao.com",
+    "bookUrlPattern": "",
+    "customOrder": -165966,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "                         榜  单  排  行                         ::https://www.ciweimao.com/book_list/0-0-month_recommend-0-0-0/quanbu/1/{{page}}\n收藏榜::https://www.ciweimao.com/book_list/0-0-total_favor-0-0-0/quanbu/1/{{page}}\n点击榜::https://www.ciweimao.com/book_list/0-0-mooth_no_vip_click-0-0-0/quanbu/1/{{page}}\n推荐榜::https://www.ciweimao.com/book_list/0-0-mooth_recommend-0-0-0/quanbu/1/{{page}}\n新书榜::https://www.ciweimao.com/book_list/0-0-month_recommend-0-1-0/quanbu/1{{page}}\n\n                         免  费  作  品                         ::https://www.ciweimao.com/book_list/0-0-month_recommend-0-0-2/quanbu/1/{{page}}\n都市青春:: https://www.ciweimao.com/book_list/1-27-month_recommend-0-0-2/quanbu/1/{{page}}\n玄幻奇幻:: https://www.ciweimao.com/book_list/1-8-month_recommend-0-0-2/quanbu/1/{{page}}\n灵异未知:: https://www.ciweimao.com/book_list/1-1-month_recommend-0-0-2/quanbu/1/{{page}}\n历史军事:: https://www.ciweimao.com/book_list/1-30-month_recommend-0-0-2/quanbu/1/{{page}}\n科幻无限:: https://www.ciweimao.com/book_list/1-6-month_recommend-0-0-2/quanbu/1/{{page}}\n游戏竞技:: https://www.ciweimao.com/book_list/1-3-month_recommend-0-0-2/quanbu/1/{{page}}\n仙侠武侠:: https://www.ciweimao.com/book_list/1-5-month_recommend-0-0-2/quanbu/1/{{page}}\n免费同人:: https://www.ciweimao.com/book_list/1-24-month_recommend-0-0-2/quanbu/1/{{page}}\n  女   频   :: https://www.ciweimao.com/book_list/2-11-month_recommend-0-0-2/quanbu/1/{{page}}\n\n                         完  本  作  品                         ::https://www.ciweimao.com/book_list/0-0-month_recommend-0-0-1/quanbu/1/{{page}}\n都市青春:: https://www.ciweimao.com/book_list/1-27-month_recommend-0-0-1/quanbu/1/{{page}}\n玄幻奇幻:: https://www.ciweimao.com/book_list/1-8-month_recommend-0-0-1/quanbu/1/{{page}}\n灵异未知:: https://www.ciweimao.com/book_list/1-1-month_recommend-0-0-1/quanbu/1/{{page}}\n历史军事:: https://www.ciweimao.com/book_list/1-30-month_recommend-0-0-1/quanbu/1/{{page}}\n科幻无限:: https://www.ciweimao.com/book_list/1-6-month_recommend-0-0-1/quanbu/1/{{page}}\n游戏竞技:: https://www.ciweimao.com/book_list/1-3-month_recommend-0-0-1/quanbu/1/{{page}}\n仙侠武侠:: https://www.ciweimao.com/book_list/1-5-month_recommend-0-0-1/quanbu/1/{{page}}\n免费同人:: https://www.ciweimao.com/book_list/1-24-month_recommend-0-0-1/quanbu/1/{{page}}\n  女   频   :: https://www.ciweimao.com/book_list/2-11-month_recommend-0-0-1/quanbu/1/{{page}}\n\n",
+    "header": "",
+    "lastUpdateTime": 1625647190639,
+    "loginUrl": "https://www.ciweimao.com/signup/login?redirect=https%3A%2F%2Fwww.ciweimao.com%2F",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "coverUrl": "class.cover ly-fl@tag.img@src",
+      "intro": "class.update-time@text&&class.book-desc.0@text",
+      "kind": "class.book-intro-cnt@tag.span.2:6:4:8@text",
+      "tocUrl": "class.btn btn-lg btn-danger@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.chapter@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.author@tag.a.0@text||p@tag.a.0@text",
+      "bookList": "class.rank-book-list@tag.li||class.book-list-table@tag.tr!0",
+      "bookUrl": "class.tit@tag.a.0@href||class.name@tag.a.0@href",
+      "coverUrl": "class.lazyload@data-original",
+      "intro": "class.desc@text",
+      "kind": "class.type@tag.p.0@text##\\[|\\]",
+      "lastChapter": "class.cnt@tag.p.1@text||class.chapter@tag.p.0@text##.*\\/",
+      "name": "class.tit@tag.a.0@text||class.name@tag.a.0@text",
+      "wordCount": "class.cnt@tag.p.1@text##最近更新：|\\/.*"
+    },
+    "ruleSearch": {
+      "author": "class.cnt.0@tag.p.1@tag.a.0@text||class.author@text",
+      "bookList": "class.rank-book-list@tag.li||class.book-list-table@tag.tr!0",
+      "bookUrl": "class.cnt.0@class.tit.0@tag.a.0@href||class.name@tag.a@href",
+      "coverUrl": "class.cover@tag.img@data-original||tag.img.0@src",
+      "intro": "class.desc@text",
+      "lastChapter": "@css:p:matches(最近更新)@text||.chapter@text@js:result.includes('最近更新') ? result.replace(/.*\\/\\s*/,'') : result;",
+      "name": "class.cnt.0@class.tit.0@tag.a.0@text||class.name@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book-chapter-list@tag.li@tag.a",
+      "chapterName": "@js:(result.outerHtml().includes('icon-lock') ? '🔒' : '') + result.text()",
+      "chapterUrl": "href@js:result+','+JSON.stringify({\"webView\": true})"
+    },
+    "searchUrl": "/get-search-book-list/0-0-0-0-0-0/全部/{{key}}/{{page}}",
+    "weight": 1
+  },
+  {
+    "bookSourceComment": "网站禁用了搜索，借助搜索引擎实现搜索。\n封面/榜单",
+    "bookSourceGroup": "数据",
+    "bookSourceName": "💰 刺猬猫▪数据",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.ciweimao.com/",
+    "customOrder": -118100,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部作品::/book_list/0/{{page}}&&玄幻奇幻::/book_list/yijiehuanxiang/&&都市青春::/book_list/qingchunrichang/&&灵异未知::/book_list/shenmiweizhi/&&历史军事::/book_list/zhanzhenglishi/&&科幻无限::/book_list/weilaihuanxiang/&&游戏竞技::/book_list/youxishijie/&&仙侠武侠::/book_list/rexuejingji/&&免费同人::/book_list/tongrenfenlei/&&型月Fate::/book_list/xingyue-fate/&&海贼火影::/book_list/huoying-haizeiwang/&&舰娘::/book_list/jianniang/&&综漫::/book_list/zongman/&&同人::/book_list/tongren/&&克苏鲁::/book_list/kesulu/&&轻小说::/book_list/qingxiaoshuo/&&穿越::/book_list/chuanyue/",
+    "lastUpdateTime": 1616051595896,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "$4",
+      "coverUrl": "$2",
+      "init": ":(?=<meta property=\"og:desc)(?:([^\"]*)\"){4}(?:([^\"]*)\"){4}(?:([^\"]*)\"){4}(?:([^\"]*)\"){4}(?:([^\"]*)\"){4}(?:([^\"]*)\"){4}",
+      "intro": "$1",
+      "kind": "$3",
+      "lastChapter": "",
+      "name": "$5",
+      "tocUrl": "$6##www##wap"
+    },
+    "ruleContent": {
+      "content": "class.chapter@textNodes",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "class.author@text##^(\\S+)##$1###",
+      "bookList": "+class.book-item",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "class.desc@text",
+      "kind": "class.author@text##(\\S+)$##$1###",
+      "lastChapter": "class.new@text##更新：",
+      "name": "tag.h3@text",
+      "wordCount": "class.title@tag.span@text"
+    },
+    "ruleSearch": {
+      "author": "tag.h2@text&&class.result__snippet@text##((?<=\\(|是作者)[^\\(\\)]{1,12}(?=\\)|倾情打造))##$1###",
+      "bookList": "class.result__body",
+      "bookUrl": "class.result__a@href",
+      "coverUrl": "class.lazyload.-1@src",
+      "intro": "class.result__snippet@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "tag.h2@text##([^,]+)无弹窗##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "+class.catalogue-list@tag.li",
+      "chapterName": "tag.a@text##^(请\\w{0,2}假|上架|章推)\\S*$",
+      "chapterUrl": "tag.a@href##$##,{webView:\"true\"}",
+      "isVip": "tag.i@class",
+      "updateTime": ""
+    },
+    "searchUrl": "https://www.dogedoge.com/results?q={{key}}+%E6%97%A0%E5%BC%B9%E7%AA%97%E5%85%A8%E6%96%87%E9%98%85%E8%AF%BB-%E5%88%BA%E7%8C%AC%E7%8C%AB+site%3Aciweimao.com%2Fbook%2F&lang=cn,{\"webView\":true}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "这个源的cookie是抓取我自己账号的发出来给大伙用，能保持登陆状态多久时间不清楚，反正现在好几天了没自动退出，会不会限制多设备登陆没试过，我自己用其它手机测试是没问题的。\napp下载地址自行百度或者https://www.123pan.com/s/q27mTd-c7UP3\n注意：如果你自己有账号需要登陆或者使用时报错、列表不显示内容，就自己编辑源把请求头中的内容删了换成下方UA或其它UA\n{\n    \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; MI 8 Lite Build/QKQ1.190910.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.62 Mobile Safari/537.36\",\n    \"ismobile\": 0\n  }",
+    "bookSourceGroup": "飞卢，刺猬猫",
+    "bookSourceName": "奇·阅读（无需登录，看部分飞卢，刺猬猫）",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://novel.qiyuedu8.top",
+    "customOrder": -260,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\n  {\n    \"title\":\"排行榜（前20本）\",\n    \"url\":\"\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":1\n    }\n  },\n  {\n    \"title\":\"最新入库\",\n    \"url\":\"/module/novel/toplist.php?tid=0&type=1&limit=20&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"最多点击\",\n    \"url\":\"/module/novel/toplist.php?tid=0&type=2&limit=20&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"最多收藏\",\n    \"url\":\"/module/novel/toplist.php?tid=0&type=7&limit=20&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"最多推荐\",\n    \"url\":\"/module/novel/toplist.php?tid=0&type=12&limit=20&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"章节数量\",\n    \"url\":\"/module/novel/toplist.php?tid=0&type=22&limit=20&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n  {\n    \"title\":\"全本字数\",\n    \"url\":\"/module/novel/toplist.php?tid=0&type=21&limit=20&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"分类\",\n    \"url\":\"\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":1\n    }\n  },\n    {\n    \"title\":\"玄幻·奇幻\",\n    \"url\":\"/module/novel/type.php?tid=1&page={{page}}&process=0&word=0&chapter=0&copy=0&cost=0&letter=0&order=0&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n    {\n    \"title\":\"武侠·仙侠\",\n    \"url\":\"/module/novel/type.php?tid=2&page={{page}}&process=0&word=0&chapter=0&copy=0&cost=0&letter=0&order=0&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n   {\n    \"title\":\"都市·言情\",\n    \"url\":\"/module/novel/type.php?tid=3&page={{page}}&process=0&word=0&chapter=0&copy=0&cost=0&letter=0&order=0&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n   {\n    \"title\":\"历史·军事\",\n    \"url\":\"/module/novel/type.php?tid=4&page={{page}}&process=0&word=0&chapter=0&copy=0&cost=0&letter=0&order=0&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n   {\n    \"title\":\"科幻·网游\",\n    \"url\":\"/module/novel/type.php?tid=9&page={{page}}&process=0&word=0&chapter=0&copy=0&cost=0&letter=0&order=0&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n   {\n    \"title\":\"恐怖·灵异\",\n    \"url\":\"/module/novel/type.php?tid=10&page={{page}}&process=0&word=0&chapter=0&copy=0&cost=0&letter=0&order=0&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  },\n   {\n    \"title\":\"同人·其它\",\n    \"url\":\"/module/novel/type.php?tid=11&page={{page}}&process=0&word=0&chapter=0&copy=0&cost=0&letter=0&order=0&pt=wap\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.25\n    }\n  }\n]",
+    "header": "{\n\t'cookie':\"user_account=L3RNPSnEkxbTKyeQYS6wBTlvpqk6n1aTQakzV6o7x2AmiO83sNvgCs9v%2FnG6XeFT%2FImzzY%2B%2BLBb8slQnxJZ%2ByXxsQlXlcDSnUAxL4%2F9%2FSYsZ8se6X2IgwBjPSPhx; user_nickname=%E8%BA%BA%E5%A7%90%E5%A7%90%E6%80%80%E9%87%8C%E5%93%AD\"\n\t}",
+    "lastUpdateTime": 1724836578435,
+    "loginUi": "",
+    "loginUrl": "/module/user/login.php",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "$.author",
+      "coverUrl": "$.src@put:{nid:nid}@//@put:{tid:tid}",
+      "init": "$.data.info",
+      "intro": "$.text",
+      "kind": "{{$.type}}\n{{$.state}}\n{{$.tags}}",
+      "lastChapter": "$.newChapterName",
+      "name": "$.name",
+      "tocUrl": "/module/novel/menu.php?nid={{$.nid}}&tid={{$.tid}}&size=999999&pt=wap",
+      "wordCount": "$.zishu"
+    },
+    "ruleContent": {
+      "content": "$.data.chapter.content"
+    },
+    "ruleExplore": {
+      "author": "$.author",
+      "bookList": "$.data.list",
+      "bookUrl": "/module/novel/info.php?nid={{$.nid}}&tid={{$.tid}}&pt=wap",
+      "coverUrl": "$.src",
+      "intro": "$.text",
+      "kind": "{{$.type}}\n{{$.state}}",
+      "lastChapter": "$.newChapterName",
+      "name": "$.name",
+      "wordCount": "$.zishu"
+    },
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data.list",
+      "bookUrl": "/module/novel/info.php?nid={{$.nid}}&tid={{$.tid}}&pt=wap",
+      "checkKeyWord": "系统",
+      "coverUrl": "$.src",
+      "intro": "$.text",
+      "kind": "{{$.type}}\n{{$.state}}",
+      "lastChapter": "$.newChapterName",
+      "name": "$.name",
+      "wordCount": "$.zishu"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "$.name",
+      "chapterUrl": "/module/novel/read.php?tid=@get:{tid}&nid=@get:{nid}&cid={{$.chapterId}}&pt=wap",
+      "isVip": "",
+      "isVolume": "",
+      "preUpdateJs": ""
+    },
+    "searchUrl": "{{cookie.removeCookie(source.getKey())}}/module/novel/search.php?key={{key}}&type=1&pt=wap",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "HINOTORI，百度\n\n❗该书源为正版书源，付费章节看不了。\n\n发现页可自行添加wap.ciweimao.com网站的书籍，规则为 书名::书籍详情链接\n\n例如：\n合格的资本家应当剥削怪异::https://wap.ciweimao.com/book/100222157\n马恩的日常::https://wap.ciweimao.com/book/100056803\n\n❗若是www.ciweimao.com网站的书籍，增加发现规则时，请自行将www改为wap",
+    "bookSourceGroup": "💰正版",
+    "bookSourceName": "💰刺猬猫wap",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.ciweimao.com",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://wap.ciweimao.com/book_list/0/{{page}}&&玄幻奇幻::https://wap.ciweimao.com/book_list/yijiehuanxiang/{{page}}&&都市青春::https://wap.ciweimao.com/book_list/qingchunrichang/{{page}}&&灵异未知::https://wap.ciweimao.com/book_list/shenmiweizhi/{{page}}&&历史军事::https://wap.ciweimao.com/book_list/zhanzhenglishi/{{page}}&&科幻无限::https://wap.ciweimao.com/book_list/weilaihuanxiang/{{page}}&&游戏竞技::https://wap.ciweimao.com/book_list/youxishijie/{{page}}&&仙侠武侠::https://wap.ciweimao.com/book_list/rexuejingji/{{page}}&&免费同人::https://wap.ciweimao.com/book_list/tongrenfenlei/{{page}}&&女频::https://wap.ciweimao.com/book_list/nvpinfenlei/{{page}}&&",
+    "header": "",
+    "lastUpdateTime": 1620386527965,
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.author@text##著\\s\\/\\s.*",
+      "coverUrl": "class.cover@img@data-original",
+      "intro": "class.desc-cnt@text",
+      "kind": "class.intro.0@text&&class.author@text##.*\\s\\/\\s",
+      "lastChapter": "class.intro.1@text##更新：",
+      "name": "class.book@text",
+      "wordCount": "class.intro.0@text##\\s\\/\\s.*"
+    },
+    "ruleContent": {
+      "content": ".chapter@textNodes&&.chapter@img@html",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "class.author@text##\\s\\/\\s.*",
+      "bookList": "class.book-item",
+      "bookUrl": "class.book-item@a@href",
+      "coverUrl": "class.lazyload@data-original",
+      "intro": "class.desc@text",
+      "kind": "class.author@text##.*\\s\\/\\s",
+      "lastChapter": "class.new@text##.*\\s\\/\\s",
+      "name": "class.title@text",
+      "wordCount": "class.new@text##更新：|\\s\\/\\s.*"
+    },
+    "ruleSearch": {
+      "bookList": ".t@a",
+      "bookUrl": "href\n@js:try{java.put(\"url\",java.get(result,{})\n.header(\"Location\"))}catch(e){\njava.put(\"url\",result)}\n##www##wap",
+      "name": "href\n<js>java.ajax(''+result)</js>\nclass.title.0@textNodes"
+    },
+    "ruleToc": {
+      "chapterList": "class.catalogue-list@li@a",
+      "chapterName": "text&&tag.i@class##icon\\sicon\\-lock##🔒",
+      "chapterUrl": "href@js:result+',{webView:\"true\"}'",
+      "isVip": ""
+    },
+    "searchUrl": "https://www.baidu.com/s?q1={{key}}&q2=&q3=&q4=&gpc=stf&ft=&q5=1&q6=www.ciweimao.com&tn=baiduadv",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceName": "刺猬猫",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.ciweimao.com1",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://wap.ciweimao.com/book_list/0/{{page}}&&玄幻奇幻::https://wap.ciweimao.com/book_list/yijiehuanxiang/{{page}}&&都市青春::https://wap.ciweimao.com/book_list/qingchunrichang/{{page}}&&灵异未知::https://wap.ciweimao.com/book_list/shenmiweizhi/{{page}}&&历史军事::https://wap.ciweimao.com/book_list/zhanzhenglishi/{{page}}&&科幻无限::https://wap.ciweimao.com/book_list/weilaihuanxiang/{{page}}&&游戏竞技::https://wap.ciweimao.com/book_list/youxishijie/{{page}}&&仙侠武侠::https://wap.ciweimao.com/book_list/rexuejingji/{{page}}&&免费同人::https://wap.ciweimao.com/book_list/tongrenfenlei/{{page}}&&女频::https://wap.ciweimao.com/book_list/nvpinfenlei/{{page}}&&\n",
+    "lastUpdateTime": 1603985751822,
+    "respondTime": 180000,
+    "ruleContent": {
+      "content": ".chapter@textNodes",
+      "nextContentUrl": ""
+    },
+    "ruleSearch": {
+      "author": ".author@text##\\/.*",
+      "bookList": ".book-item",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "intro": ".desc@textNodes",
+      "kind": ".author@text##.*?\\/",
+      "lastChapter": ".new@text",
+      "name": "h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.catalogue-list less@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href@js:result+',{webView:\"true\"}'"
+    },
+    "searchUrl": "https://wap.ciweimao.com:443/book_list?keyword={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "感谢关耳大大",
+    "bookSourceGroup": "📺影视",
+    "bookSourceName": "📺 番茄短剧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shanhuzs.com/",
+    "customOrder": 1150,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"女频恋爱\",\"url\":\"/fqsansw/5---女频恋爱-----{{page}}---.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"反转爽剧\",\"url\":\"/fqsansw/5---反转爽-----{{page}}---.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"脑洞悬疑\",\"url\":\"/fqsansw/5---脑洞悬疑-----{{page}}---.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"年代穿越\",\"url\":\"/fqsansw/5---年代穿越-----{{page}}---.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"古装仙侠\",\"url\":\"/fqsansw/5---古装仙侠-----{{page}}---.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"现代都市\",\"url\":\"/fqsansw/5---现代都市-----{{page}}---.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1730567611018,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "kind": ".tag@a@text"
+    },
+    "ruleContent": {
+      "content": "##\"url\":\"(.*)\",\"url_next\"##$1###@js:\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(result.replace(/\\\\/g,''),title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n\t}\n'【刷新正文】播放\\n✅直链:\\n'+result",
+      "nextContentUrl": "",
+      "payAction": "",
+      "replaceRegex": "##\\",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleSearch": {
+      "bookList": "class.col8",
+      "bookUrl": "h4@a@href",
+      "checkKeyWord": "断亲后",
+      "coverUrl": "img@data-original",
+      "kind": ".text@text",
+      "name": "h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "a[href^=\"/fqsanpy/\"]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/fqsansc/{{key}}----------{{page}}---.html",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📺影视",
+    "bookSourceName": "📺 免费短剧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://rjfwa.com",
+    "customOrder": 1153,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "都市::/vodshow/1---都市-----{{page}}---.html\n赘婿::/vodshow/1---赘婿-----{{page}}---.html\n战神::/vodshow/1---战神-----{{page}}---.html\n历史::/vodshow/1---历史-----{{page}}---.html\n脑洞::/vodshow/1---脑洞-----{{page}}---.html\n玄幻::/vodshow/1---玄幻-----{{page}}---.html\n搞笑::/vodshow/1---搞笑-----{{page}}---.html\n网剧::/vodshow/1---网剧-----{{page}}---.html\n喜剧::/vodshow/1---喜剧-----{{page}}---.html\n萌宝::/vodshow/1---萌宝-----{{page}}---.html\n神豪::/vodshow/1---神豪-----{{page}}---.html\n超能::/vodshow/1---超能-----{{page}}---.html\n甜宠::/vodshow/1---甜宠-----{{page}}---.html\n励志::/vodshow/1---励志-----{{page}}---.html\n复仇::/vodshow/1---复仇-----{{page}}---.html\n长生::/vodshow/1---长生-----{{page}}---.html\n神医::/vodshow/1---神医-----{{page}}---.html\n马甲::/vodshow/1---马甲-----{{page}}---.html\n亲情::/vodshow/1---亲情-----{{page}}---.html\n奇幻::/vodshow/1---奇幻-----{{page}}---.html\n无敌::/vodshow/1---无敌-----{{page}}---.html\n现实::/vodshow/1---现实-----{{page}}---.html\n重生::/vodshow/1---重生-----{{page}}---.html\n闪婚::/vodshow/1---闪婚-----{{page}}---.html\n穿越::/vodshow/1---穿越-----{{page}}---.html\n年代::/vodshow/1---年代-----{{page}}---.html\n权谋::/vodshow/1---权谋-----{{page}}---.html\n悬疑::/vodshow/1---悬疑-----{{page}}---.html\n虐恋::/vodshow/1---虐恋-----{{page}}---.html\n古装::/vodshow/1---古装-----{{page}}---.html\n情感::/vodshow/1---情感-----{{page}}---.html\n逆袭::/vodshow/1---逆袭-----{{page}}---.html\n家庭::/vodshow/1---家庭-----{{page}}---.html\n小人物::/vodshow/1---小人物-----{{page}}---.html\n职场商战::/vodshow/1---职场商战-----{{page}}---.html\n古代言情::/vodshow/1---古代言情-----{{page}}---.html\n现代言情::/vodshow/1---现代言情-----{{page}}---.html\n电视节目::/vodshow/1---电视节目-----{{page}}---.html\n奇幻脑洞::/vodshow/1---奇幻脑洞-----{{page}}---.html\n强者回归::/vodshow/1---强者回归-----{{page}}---.html\n豪门恩怨::/vodshow/1---豪门恩怨-----{{page}}---.html\n高手下山::/vodshow/1---高手下山-----{{page}}---.html\n家国情仇::/vodshow/1---家国情仇-----{{page}}---.html\n时空之旅::/vodshow/1---时空之旅-----{{page}}---.html\n玄幻仙侠::/vodshow/1---玄幻仙侠-----{{page}}---.html\n欢喜冤家::/vodshow/1---欢喜冤家-----{{page}}---.html\n传承觉醒::/vodshow/1---传承觉醒-----{{page}}---.html",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; MIX 2 Build/PKQ1.190118.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1730567633537,
+    "respondTime": 180000,
+    "ruleContent": {
+      "content": "##var player_aaaa(.*)\"url\":\"(.*)\",\"url_next\"##$2###@js:\nif(book.durChapterIndex==chapter.index){\n\t\tjava.startBrowser(result.replace(/\\\\/g,''),title)\n\t\tjava.toast('正在加载视频\\n视频加载较慢，请耐心等待')\n\t}\n'【刷新正文】播放\\n✅直链:\\n'+result",
+      "replaceRegex": "##\\"
+    },
+    "ruleExplore": {
+      "bookList": ".BrowseList_listItem",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@src",
+      "intro": ".BrowseList_bookIntro@text",
+      "kind": ".BrowseList_tagsBox@a@text",
+      "lastChapter": ".BrowseList_lastChapter@text",
+      "name": ".BrowseList_bookName@text",
+      "wordCount": ".BrowseList_bookViewCount@text"
+    },
+    "ruleSearch": {
+      "author": ".MTagBookList_bookAuthor@text",
+      "bookList": "class.MTagBookList_tagBookItem",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "我的",
+      "coverUrl": "img@src",
+      "intro": ".MTagBookList_intro@text",
+      "kind": ".MTagBookList_tagsBox@a@text",
+      "name": ".MTagBookList_bookName@text"
+    },
+    "ruleToc": {
+      "chapterList": ".CatalogList_linkBox",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/vodsearch/{{key}}----------{{page}}---.html",
+    "weight": 0
+  }
+]
